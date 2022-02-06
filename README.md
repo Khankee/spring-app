@@ -7,6 +7,8 @@ Topics covered:
 * Spring beans
 * XML configuration
 * Dependency Injection
+* Scope: singleton and prototype
+* Init - method, destroy - method, factory - method
 
 Course source : [YouTube]
 <br>
