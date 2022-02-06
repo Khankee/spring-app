@@ -23,7 +23,8 @@
     </bean>
 
     <bean id="musicPlayer"
-          class="uk.arukhan.springrtrain.MusicPlayer">
+          class="uk.arukhan.springrtrain.MusicPlayer"
+            scope="prototype">
         <property name="musicList">
             <list>
                 <ref bean="musicClassicBean"/>
